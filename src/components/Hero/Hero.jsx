@@ -27,8 +27,8 @@ const textVariants = {
 
 const Hero = () => {
   return (
-    <div className="hero">
-      <div className="wrapper">
+    <div className="hero" id="Homepage">
+      <div className="hero-wrapper">
         <motion.div
           className="textContainer"
           variants={textVariants}
@@ -36,12 +36,12 @@ const Hero = () => {
           animate="animate"
         >
           <motion.h3 variants={textVariants}></motion.h3>
-          <motion.h2 variants={textVariants}>Ihza Mahendra</motion.h2>
-          <motion.h1 variants={textVariants}>Frontend Developer</motion.h1>
+          <motion.h2 className="name" variants={textVariants}>Ihza Mahendra Sofyan</motion.h2>
+          <motion.h1 className="job" variants={textVariants}>Frontend Developer</motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <a href="#Portfolio">
+            <a href="gallery.html">
               <motion.button class="button-85" role="button" variants={textVariants}>
-                See My Works
+                Gallery
               </motion.button></a>
             <a href="#Contact">
               <motion.button class="button-85" role="button" variants={textVariants}>Contact</motion.button>
@@ -49,11 +49,11 @@ const Hero = () => {
           </motion.div>
 
         </motion.div>
+        <div className="imageContainer">
+          <img className="ihza-pic" src="/ihza.png" alt="" />
+        </div>
       </div>
 
-      <div className="imageContainer">
-        <img src="/ihza-circle.jpg" alt="" />
-      </div>
     </div>
   );
 };

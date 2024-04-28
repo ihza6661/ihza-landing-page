@@ -5,8 +5,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: red;
-  color: black;
+  color: rgb(0, 0, 0);
+
+  @include mobile {
+    color: white;
+  }
 
   .bg {
     z-index: 999;
@@ -14,12 +17,13 @@
     top: 0;
     left: 0;
     bottom: 0;
-    width: 400px;
-    background: white;
+    width: 50vh;
+    background: rgb(255, 255, 255);
 
     @include mobile {
       justify-content: flex-end;
-      width: 200px;
+      width: 100%;
+      background: black;
     }
 
     .links {
@@ -31,12 +35,16 @@
       align-items: center;
       justify-content: center;
       gap: 20px;
+      font-weight: 200;
 
       a {
-        font-size: 40px;
+        font-size: 30px;
+        text-transform: uppercase;
 
         @include mobile {
           font-size: 20px;
+          letter-spacing: 8px;
+          font-weight: 200;
         }
       }
     }

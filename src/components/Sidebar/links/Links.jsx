@@ -25,7 +25,7 @@ const itemVariants = {
 };
 
 const Links = () => {
-  const items = ["About", "Homepage", "Portfolio", "Contact"];
+  const items = ["Home", "About", "Portfolio", "Contact", "Gallery", "Instagram"];
 
   return (
     <motion.div className="links" variants={variants}>
@@ -34,7 +34,7 @@ const Links = () => {
           href={`#${item}`}
           key={item}
           variants={itemVariants}
-          whileHover={{ scale: 1.1 }}
+          whileHover={{ scale: 1.3 }}
           whileTap={{ scale: 0.95 }}
         >
           {item}
