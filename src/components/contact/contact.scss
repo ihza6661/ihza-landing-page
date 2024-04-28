@@ -1,0 +1,100 @@
+@import "../../app.scss";
+
+.contact {
+  height: 100px;
+  max-width: 1366px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  padding-top: 400px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  @include mobile {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    @include mobile {
+      gap: 20px;
+      text-align: center;
+      align-items: center;
+      margin-top: 70px;
+    }
+
+    h1 {
+      font-size: 60px;
+      line-height: 88px;
+      font-weight: 500;
+      color: darkgoldenrod;
+
+      @include mobile {
+        font-size: 36px;
+      }
+    }
+
+    span {
+      font-weight: 300;
+      cursor: pointer;
+      letter-spacing: 2px;
+    }
+
+    span:hover {
+      color: darkgoldenrod;
+    }
+  }
+
+  .formContainer {
+    flex: 1;
+    position: relative;
+
+    @include mobile {
+      padding: 50px;
+      width: 100%;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      input,
+      textarea {
+        padding: 20px;
+        font-weight: 1000;
+        background-color: transparent;
+        border: 2px solid white;
+        border-color: darkgoldenrod;
+        color: white;
+        border-radius: 20px;
+
+        @include mobile {
+          padding: 10px;
+        }
+      }
+
+      button {
+        padding: 20px;
+
+        border: none;
+        background-color: lightgrey;
+        cursor: pointer;
+        font-weight: 700;
+        border-radius: 50px;
+
+        @include mobile {
+          padding: 10px;
+        }
+      }
+    }
+  }
+}

@@ -6,7 +6,7 @@ const ToggleButton = ({ setOpen }) => {
       <svg width="30" height="30" viewBox="0 0 23 23">
         <motion.path
           strokeWidth="2"
-          stroke="gray"
+          stroke="gold"
           strokeLinecap="ractangle"
           variants={{
             closed: { d: "M 2 2.5 L 20 2.5" },
@@ -15,7 +15,7 @@ const ToggleButton = ({ setOpen }) => {
         />
         <motion.path
           strokeWidth="2"
-          stroke="gray"
+          stroke="lightgray"
           strokeLinecap="ractangle"
           d="M 2 9.423 L 20 9.423"
           variants={{
@@ -25,7 +25,7 @@ const ToggleButton = ({ setOpen }) => {
         />
         <motion.path
           strokeWidth="2"
-          stroke="gray"
+          stroke="red"
           strokeLinecap="ractangle"
           variants={{
             closed: { d: "M 2 16.346 L20 16.346" },

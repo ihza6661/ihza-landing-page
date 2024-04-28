@@ -1,0 +1,146 @@
+@import "../../app.scss";
+
+.about {
+  position: relative;
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+
+  @include mobile {
+    margin: 8%;
+    height: fit-content;
+    box-sizing: border-box;
+    display: block;
+  }
+
+  .section__text__p1 {
+    text-align: center;
+    color: gray;
+    padding-top: 45px;
+
+    @include mobile {
+      font-size: 15px;
+    }
+  }
+
+  .text-container {
+    @include mobile {
+    }
+  }
+
+  .title {
+    font-size: 3rem;
+    text-align: center;
+    color: darkgray;
+
+    @include mobile {
+      font-size: 30px;
+    }
+  }
+
+  .icon {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+  }
+
+  .section-container {
+    display: flex;
+
+    @include mobile {
+      display: block;
+    }
+  }
+
+  .about-containers {
+    gap: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 8rem;
+
+    @include mobile {
+      margin-top: 5rem;
+    }
+  }
+
+  .about-details-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .about-containers,
+  .about-details-container {
+    display: flex;
+
+    @include mobile {
+      font-size: 15px;
+    }
+  }
+
+  .about-pic {
+    border-radius: 2rem;
+  }
+
+  .details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: transparent;
+    border-radius: 2rem;
+    border: solid 1px;
+    border-color: darkgoldenrod;
+    text-align: center;
+  }
+
+  .section-container {
+    gap: 4rem;
+
+    @include mobile {
+    }
+  }
+
+  .section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    display: flex;
+
+    @include mobile {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+      margin: 0 auto -2rem;
+    }
+  }
+
+  img {
+    width: 390px;
+    height: 390px;
+
+    @include mobile {
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+    }
+  }
+
+  .text-container {
+    margin: 25px;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+  
+ 
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+
+  .text-container {
+    text-align: justify;
+  }
+} */
