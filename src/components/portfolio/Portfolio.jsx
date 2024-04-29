@@ -13,7 +13,6 @@ const item = [
         desc: "a Simpe Portfolio build using react",
         //desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et hic, mollitia porro, dignissimos aspernatur fuga labore quaerat voluptates neque molestias quae. Incidunt facilis, corporis laborum deserunt illum, impedit ipsa perferendis alias sunt, distinctio autem nesciunt neque assumenda eligendi repudiandae possimus.",
         button: "Visit",
-        button2: "GitHub",
         link: "https://ihza-react.netlify.app/"
 
     },
@@ -23,9 +22,8 @@ const item = [
         img: "/project-1.png",
         desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et hic, mollitia porro, dignissimos aspernatur fuga labore quaerat voluptates neque molestias quae. Incidunt facilis, corporis laborum deserunt illum, impedit ipsa perferendis alias sunt, distinctio autem nesciunt neque assumenda eligendi repudiandae possimus.",
         button: "Visit",
-        button2: "GitHub",
 
-        link: "https://ihza-react.netlify.app/"
+        link: "https://"
     },
     {
         id: 3,
@@ -33,7 +31,6 @@ const item = [
         img: "/project-2.png",
         desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et hic, mollitia porro, dignissimos aspernatur fuga labore quaerat voluptates neque molestias quae. Incidunt facilis, corporis laborum deserunt illum, impedit ipsa perferendis alias sunt, distinctio autem nesciunt neque assumenda eligendi repudiandae possimus.",
         button: "visit",
-        button2: "GitHub",
         link: "https://"
     },
 ];
@@ -60,7 +57,6 @@ const Single = ({ item }) => {
                         {item.button && (
                             <a href={item.link} target="_blank" >{/*rel="noopener noreferrer"*/}
                                 <button class="button-85" role="button" >{item.button}</button>
-                                <button class="button-85" role="button" >{item.button2}</button>
                             </a>
                         )}
                     </motion.div>

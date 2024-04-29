@@ -39,7 +39,7 @@ const Hero = () => {
           <motion.h2 className="name" variants={textVariants}>Ihza Mahendra Sofyan</motion.h2>
           <motion.h1 className="job" variants={textVariants}>Frontend Developer</motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <a href="gallery.html">
+            <a href="https://gallery-ihza.netlify.app/" target="blank">
               <motion.button class="button-85" role="button" variants={textVariants}>
                 Gallery
               </motion.button></a>

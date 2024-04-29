@@ -7,7 +7,7 @@ const ToggleButton = ({ setOpen }) => {
         <motion.path
           strokeWidth="2"
           stroke="gold"
-          strokeLinecap="ractangle"
+          strokeLinecap="round"
           variants={{
             closed: { d: "M 2 2.5 L 20 2.5" },
             open: { d: "M 3 16.5 L 17 2.5" },
@@ -16,7 +16,7 @@ const ToggleButton = ({ setOpen }) => {
         <motion.path
           strokeWidth="2"
           stroke="lightgray"
-          strokeLinecap="ractangle"
+          strokeLinecap="round"
           d="M 2 9.423 L 20 9.423"
           variants={{
             closed: { opacity: 1 },
@@ -26,7 +26,7 @@ const ToggleButton = ({ setOpen }) => {
         <motion.path
           strokeWidth="2"
           stroke="red"
-          strokeLinecap="ractangle"
+          strokeLinecap="round"
           variants={{
             closed: { d: "M 2 16.346 L20 16.346" },
             open: { d: "M 3 2.5 L 17 16.346" },
