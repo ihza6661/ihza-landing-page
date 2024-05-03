@@ -24,7 +24,7 @@
       justify-content: center;
       gap: 20px;
       text-align: center;
-      white-space: nowrap;
+      white-space: wrap;
       width: auto;
 
       @include mobile {
@@ -57,13 +57,13 @@
       }
       .buttons {
         padding: 20px;
+        white-space: nowrap;
       }
     }
   }
 
   .imageContainer {
     position: relative;
-    //border: solid 2px red;
 
     img {
       width: 300px;

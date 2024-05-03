@@ -17,6 +17,7 @@
     text-align: center;
     color: darkgoldenrod;
     font-size: 36px;
+    z-index: 1;
 
     @include mobile {
       padding-top: calc(100vh - 100px);
