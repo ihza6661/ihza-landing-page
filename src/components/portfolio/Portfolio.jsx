@@ -20,7 +20,7 @@ const item = [
         id: 2,
         title: "React JS",
         img: "/project-1.png",
-        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et hic, mollitia porro, dignissimos aspernatur fuga labore quaerat voluptates neque molestias quae. Incidunt facilis, corporis laborum deserunt illum, impedit ipsa perferendis alias sunt, distinctio autem nesciunt neque assumenda eligendi repudiandae possimus.",
+        desc: "Incidunt facilis, corporis laborum deserunt illum, impedit ipsa perferendis alias sunt, distinctio autem nesciunt neque assumenda eligendi repudiandae possimus.",
         button: "Visit",
 
         link: "https://"
@@ -29,7 +29,7 @@ const item = [
         id: 3,
         title: "Javascript App",
         img: "/project-2.png",
-        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et hic, mollitia porro, dignissimos aspernatur fuga labore quaerat voluptates neque molestias quae. Incidunt facilis, corporis laborum deserunt illum, impedit ipsa perferendis alias sunt, distinctio autem nesciunt neque assumenda eligendi repudiandae possimus.",
+        desc: "Incidunt facilis, corporis laborum deserunt illum, impedit ipsa perferendis alias sunt, distinctio autem nesciunt neque assumenda eligendi repudiandae possimus.",
         button: "visit",
         link: "https://"
     },
