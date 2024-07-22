@@ -13,7 +13,7 @@ const experience = () => {
                             <div className="article-container">
                                 <article>
                                     <img
-                                        src="/checkmark_light.png"
+                                        src="/html.png"
                                         src-light="/checkmark_light.png"
                                         src-dark="/checkmark_dark.png"
                                         alt="Experience icon"
@@ -26,7 +26,7 @@ const experience = () => {
                                 </article>
                                 <article>
                                     <img
-                                        src="/checkmark_light.png"
+                                        src="/css.png"
                                         src-light="/checkmark_light.png"
                                         src-dark="/checkmark_dark.png"
                                         alt="Experience icon"
@@ -39,7 +39,7 @@ const experience = () => {
                                 </article>
                                 <article>
                                     <img
-                                        src="/checkmark_light.png"
+                                        src="/sass.png"
                                         src-light="/checkmark_light.png"
                                         src-dark="/checkmark_dark.png"
                                         alt="Experience icon"
@@ -52,7 +52,7 @@ const experience = () => {
                                 </article>
                                 <article>
                                     <img
-                                        src="/checkmark_light.png"
+                                        src="/js.png"
                                         src-light="/checkmark_light.png"
                                         src-dark="/checkmark_dark.png"
                                         alt="Experience icon"

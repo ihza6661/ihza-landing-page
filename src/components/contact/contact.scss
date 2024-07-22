@@ -59,7 +59,12 @@
 
     @include mobile {
       padding: 50px;
+      padding-top: 0;
       width: 100%;
+    }
+
+    @include tablet {
+      padding-top: 0;
     }
 
     form {
