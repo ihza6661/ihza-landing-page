@@ -56,7 +56,7 @@ const Single = ({ item }) => {
                         <p>{item.desc}</p>
                         {item.button && (
                             <a href={item.link} target="_blank" >{/*rel="noopener noreferrer"*/}
-                                <button class="button-85" role="button" >{item.button}</button>
+                                <button className="button-85" role="button" >{item.button}</button>
                             </a>
                         )}
                     </motion.div>

@@ -2,6 +2,7 @@ import React from "react";
 import "./hero.scss";
 import { motion } from "framer-motion";
 
+
 const textVariants = {
   initial: {
     x: -500,
@@ -25,7 +26,11 @@ const textVariants = {
   },
 };
 
+
+
 const Hero = () => {
+
+
   return (
     <div className="hero" id="Homepage">
       <div className="hero-wrapper">
@@ -40,11 +45,11 @@ const Hero = () => {
           <motion.h1 className="job" variants={textVariants}>Frontend Developer</motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <a href="https://gallery-ihza.netlify.app/" target="blank">
-              <motion.button class="button-85" role="button" variants={textVariants}>
+              <motion.button className="button-85" role="button" variants={textVariants}>
                 Gallery
               </motion.button></a>
             <a href="#Contact">
-              <motion.button class="button-85" role="button" variants={textVariants}>Contact</motion.button>
+              <motion.button className="button-85" role="button" variants={textVariants}>Contact</motion.button>
             </a>
           </motion.div>
 

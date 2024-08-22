@@ -14,9 +14,7 @@ const experience = () => {
                                 <article>
                                     <img
                                         src="/html.png"
-                                        src-light="/checkmark_light.png"
-                                        src-dark="/checkmark_dark.png"
-                                        alt="Experience icon"
+                                        alt="html icon"
                                         className="icon"
                                     />
                                     <div>
@@ -27,9 +25,7 @@ const experience = () => {
                                 <article>
                                     <img
                                         src="/css.png"
-                                        src-light="/checkmark_light.png"
-                                        src-dark="/checkmark_dark.png"
-                                        alt="Experience icon"
+                                        alt="css icon"
                                         className="icon"
                                     />
                                     <div>
@@ -39,10 +35,19 @@ const experience = () => {
                                 </article>
                                 <article>
                                     <img
+                                        src="/js.png"
+                                        alt="javascript icon"
+                                        className="icon"
+                                    />
+                                    <div>
+                                        <h3>JavaScript</h3>
+                                        <p>Basic</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img
                                         src="/sass.png"
-                                        src-light="/checkmark_light.png"
-                                        src-dark="/checkmark_dark.png"
-                                        alt="Experience icon"
+                                        alt="sass icon"
                                         className="icon"
                                     />
                                     <div>
@@ -50,16 +55,48 @@ const experience = () => {
                                         <p>Basic</p>
                                     </div>
                                 </article>
+
                                 <article>
                                     <img
-                                        src="/js.png"
-                                        src-light="/checkmark_light.png"
-                                        src-dark="/checkmark_dark.png"
-                                        alt="Experience icon"
+                                        src="/sql1.png"
+                                        alt="sql icon"
                                         className="icon"
                                     />
                                     <div>
-                                        <h3>JavaScript</h3>
+                                        <h3>SQL</h3>
+                                        <p>Basic</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img
+                                        src="/react.png"
+                                        alt="react icon"
+                                        className="icon"
+                                    />
+                                    <div>
+                                        <h3>React</h3>
+                                        <p>Basic</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img
+                                        src="/angular.png"
+                                        alt="angular icon"
+                                        className="icon"
+                                    />
+                                    <div>
+                                        <h3>Angular</h3>
+                                        <p>Basic</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img
+                                        src="/bootstrap.png"
+                                        alt="bootstrap icon"
+                                        className="icon"
+                                    />
+                                    <div>
+                                        <h3>Bootstrap</h3>
                                         <p>Basic</p>
                                     </div>
                                 </article>
