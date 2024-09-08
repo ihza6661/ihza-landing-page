@@ -5,34 +5,43 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion"
 import React from "react";
 
 
+
 const item = [
     {
         id: 1,
-        title: "React App",
+        title: "Modern Portfolio",
         img: "/react.jpeg",
-        desc: "a Simpe Portfolio build using react",
-        //desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et hic, mollitia porro, dignissimos aspernatur fuga labore quaerat voluptates neque molestias quae. Incidunt facilis, corporis laborum deserunt illum, impedit ipsa perferendis alias sunt, distinctio autem nesciunt neque assumenda eligendi repudiandae possimus.",
+        desc: "Fully Responsive Design. Perfect for creatives, freelancers, and professionals who want to highlight their work in a sleek.",
         button: "Visit",
         link: "https://ihza-react.netlify.app/"
 
     },
     {
         id: 2,
-        title: "React JS",
-        img: "/project-1.png",
-        desc: "Incidunt facilis, corporis laborum deserunt illum, impedit ipsa perferendis alias sunt, distinctio autem nesciunt neque assumenda eligendi repudiandae possimus.",
+        title: "Luxury-Themed Resume",
+        img: "/CV.png",
+        desc: "this template combines modern design elements with a touch of class.",
         button: "Visit",
 
-        link: "https://"
+        link: "https://luxury-cv.netlify.app/"
+    },
+    {
+        id: 4,
+        title: "Clean and Simple Portfolio",
+        img: "/people.png",
+        desc: "Elevate your online presence with a responsive and clean design portfolio website, user-friendly layout. This portfolio template is crafted with simplicity and functionality in mind, ensuring your work takes center stage while providing an intuitive browsing experience on any device.",
+        button: "visit",
+        link: "https://ihza-cv.netlify.app"
     },
     {
         id: 3,
-        title: "Javascript App",
-        img: "/project-2.png",
-        desc: "Incidunt facilis, corporis laborum deserunt illum, impedit ipsa perferendis alias sunt, distinctio autem nesciunt neque assumenda eligendi repudiandae possimus.",
+        title: "Modern Design Resume",
+        img: "/modernResume.png",
+        desc: "Easily editable in Microsoft Word, or Google Docs, giving you complete control to tailor the template to your needs.",
         button: "visit",
-        link: "https://"
+        link: "https://ihza-cv.netlify.app"
     },
+
 ];
 
 const Single = ({ item }) => {

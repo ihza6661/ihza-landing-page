@@ -6,6 +6,7 @@ import Contact from "./components/contact/Contact";
 import Cursor from "./components/cursor/cursor";
 import Portfolio from "./components/portfolio/Portfolio";
 import Experience from "./components/experience/Experience";
+import Skills from "./components/Skills/Skills";
 
 
 
@@ -22,8 +23,11 @@ const App = () => {
         <About />
       </section>
       <section>
-        <Experience />
+        <Skills />
       </section>
+      {/* <section>
+        <Experience />
+      </section> */}
       <Portfolio />
       <section>
         <Contact />
