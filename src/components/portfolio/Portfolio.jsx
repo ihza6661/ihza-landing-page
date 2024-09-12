@@ -31,7 +31,7 @@ const item = [
         img: "/people.png",
         desc: "Elevate your online presence with a responsive and clean design portfolio website, user-friendly layout. This portfolio template is crafted with simplicity and functionality in mind, ensuring your work takes center stage while providing an intuitive browsing experience on any device.",
         button: "visit",
-        link: "https://ihza-cv.netlify.app"
+        link: "https://ihza-vite-portfolio.netlify.app/"
     },
     {
         id: 3,
@@ -40,6 +40,14 @@ const item = [
         desc: "Easily editable in Microsoft Word, or Google Docs, giving you complete control to tailor the template to your needs.",
         button: "visit",
         link: "https://ihza-cv.netlify.app"
+    },
+    {
+        id: 4,
+        title: "Halo Doc Clone",
+        img: "/halodoc.png",
+        desc: "",
+        button: "visit",
+        link: "https://halo-doc-clone.netlify.app"
     },
 
 ];

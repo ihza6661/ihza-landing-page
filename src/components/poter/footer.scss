@@ -1,0 +1,21 @@
+@import "../../app.scss";
+
+#footer {
+  height: fit-content;
+}
+
+.footer {
+  padding: 60px 0;
+  text-align: center;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  p {
+    margin: 0;
+    font-family: monospace;
+  }
+}
