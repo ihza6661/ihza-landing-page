@@ -7,7 +7,7 @@ import Cursor from "./components/cursor/cursor";
 import Portfolio from "./components/portfolio/Portfolio";
 import Experience from "./components/experience/Experience";
 import Skills from "./components/Skills/Skills";
-import Footer from './components/poter/footer';
+import Footer from './components/poter/Footer';
 
 
 
