@@ -47,7 +47,7 @@ const item = [
         img: "/halodoc.png",
         desc: "",
         button: "visit",
-        link: "https://halo-doc-clone.netlify.app"
+        link: "https://halo-doc-by-ihza.netlify.app/"
     },
 
 ];
