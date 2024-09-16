@@ -95,6 +95,7 @@
       object-fit: cover;
       border-radius: 50px;
       border: solid darkgoldenrod 2px;
+      padding: 10px;
 
       @include mobile {
         object-fit: cover;
