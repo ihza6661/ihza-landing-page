@@ -45,9 +45,17 @@ const item = [
         id: 4,
         title: "Halo Doc Clone",
         img: "/halodoc.png",
-        desc: "",
+        desc: "HTML CSS Only HaloDoc Clone",
         button: "visit",
         link: "https://halo-doc-by-ihza.netlify.app/"
+    },
+    {
+        id: 5,
+        title: "E-com Website",
+        img: "/halodoc.png",
+        desc: "HTML CSS JS only",
+        button: "visit",
+        link: "https://e-com-by-ihza-baker.netlify.app"
     },
 
 ];
