@@ -9,6 +9,15 @@ import React from "react";
 const item = [
     {
         id: 1,
+        title: "E-com React Website",
+        img: "/people.png",
+        desc: "Fully Responsive Design. Perfect for creatives, freelancers, and professionals who want to highlight their work in a sleek.",
+        button: "Visit",
+        link: "https://hajarajak-ihza-baker.netlify.app/"
+
+    },
+    {
+        id: 2,
         title: "Modern Portfolio",
         img: "/react.jpeg",
         desc: "Fully Responsive Design. Perfect for creatives, freelancers, and professionals who want to highlight their work in a sleek.",
@@ -17,7 +26,7 @@ const item = [
 
     },
     {
-        id: 2,
+        id: 3,
         title: "Luxury-Themed Resume",
         img: "/CV.png",
         desc: "this template combines modern design elements with a touch of class.",
@@ -34,7 +43,7 @@ const item = [
         link: "https://ihza-vite-portfolio.netlify.app/"
     },
     {
-        id: 3,
+        id: 5,
         title: "Modern Design Resume",
         img: "/modernResume.png",
         desc: "Easily editable in Microsoft Word, or Google Docs, giving you complete control to tailor the template to your needs.",
@@ -42,7 +51,7 @@ const item = [
         link: "https://ihza-cv.netlify.app"
     },
     {
-        id: 4,
+        id: 6,
         title: "Halo Doc Clone",
         img: "/halodoc.png",
         desc: "HTML CSS Only HaloDoc Clone",
@@ -50,9 +59,9 @@ const item = [
         link: "https://halo-doc-by-ihza.netlify.app/"
     },
     {
-        id: 5,
+        id: 7,
         title: "E-com Website",
-        img: "/halodoc.png",
+        img: "/people.png",
         desc: "HTML CSS JS only",
         button: "visit",
         link: "https://e-com-by-ihza-baker.netlify.app"
