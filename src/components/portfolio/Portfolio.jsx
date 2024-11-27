@@ -66,6 +66,14 @@ const item = [
         button: "visit",
         link: "https://e-com-by-ihza-baker.netlify.app"
     },
+    {
+        id: 8,
+        title: "PromptLah",
+        img: "/people.png",
+        desc: "Next JS App",
+        button: "visit",
+        link: "https://promp-lah.vercel.app/"
+    },
 
 ];
 
