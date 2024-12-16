@@ -19,7 +19,7 @@ const Navbar = () => {
           <a href="https://www.facebook.com/Casablancas6661/" target="blank">
             <img src="/facebook.png" alt="facebook icon" />
           </a>
-          <a href="https://www.instagram.com/ihza.ms/" target="blank">
+          <a href="https://www.instagram.com/ihza6661/" target="blank">
             <img src="/instagram.png" alt="instagram icon" />
           </a>
           <a href="https://wa.me/089692070270/" className="WA-logo" target="blank">
