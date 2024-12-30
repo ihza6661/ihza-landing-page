@@ -35,7 +35,7 @@ const Hero = () => {
           animate="animate"
         >
           <motion.h3 variants={textVariants}></motion.h3>
-          <motion.h2 className="name" variants={textVariants}>Ihza Baker</motion.h2>
+          <motion.h2 className="name" variants={textVariants}>Ihza Mahendra</motion.h2>
           <motion.h1 className="job" variants={textVariants}>Frontend Developer</motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <a href="https://gallery-ihza.netlify.app/" target="blank">
