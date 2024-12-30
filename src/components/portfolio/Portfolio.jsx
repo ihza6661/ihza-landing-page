@@ -21,7 +21,7 @@ const item = [
         img: "/people.png",
         desc: "Fully Responsive Design. Perfect for creatives, freelancers, and professionals who want to highlight their work in a sleek.",
         button: "Visit",
-        link: "https://hajarajak-ihza-baker.netlify.app/"
+        link: "https://hajar-ajak-frontend.vercel.app/"
 
     },
     {
@@ -73,6 +73,14 @@ const item = [
         desc: "HTML CSS JS only",
         button: "visit",
         link: "https://e-com-by-ihza-baker.netlify.app"
+    },
+    {
+        id: 9,
+        title: "To Do React",
+        img: "/people.png",
+        desc: "A simple To-Do app built with React, demonstrating a basic understanding of React concepts.",
+        button: "visit",
+        link: "https://to-do-react-ihza.netlify.app/"
     },
 
 
