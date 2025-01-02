@@ -13,7 +13,7 @@ const item = [
         img: "/people.png",
         desc: "Next JS App",
         button: "visit",
-        link: "https://promp-lah.vercel.app/"
+        link: "https://promp-35pj31qks-ihza-mahendras-projects.vercel.app/"
     },
     {
         id: 2,
