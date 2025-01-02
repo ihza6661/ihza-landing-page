@@ -76,7 +76,7 @@ const item = [
     },
     {
         id: 9,
-        title: "To Do React",
+        title: "To Do App",
         img: "/people.png",
         desc: "A simple To-Do app built with React, demonstrating a basic understanding of React concepts.",
         button: "visit",
