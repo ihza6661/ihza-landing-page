@@ -7,6 +7,15 @@ import React from "react";
 
 
 const item = [
+
+    {
+        id: 11,
+        title: "Apple Iphone Website Clone",
+        img: "/people.png",
+        desc: "Build using JavaScript and React",
+        button: "visit",
+        link: "https://apple-website-ihza.vercel.app/"
+    },
     {
         id: 1,
         title: "PromptLah",
