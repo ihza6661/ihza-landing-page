@@ -7,12 +7,21 @@ import React from "react";
 
 
 const item = [
+    {
+        id: 2,
+        title: "E-com React Website",
+        img: "/people.png",
+        desc: "Build using JavaScript and React",
+        button: "Visit",
+        link: "https://az-denim-3ycjy14me-ihza-mahendras-projects.vercel.app/"
+
+    },
 
     {
         id: 11,
         title: "Apple Iphone Website Clone",
         img: "/people.png",
-        desc: "Build using JavaScript and React",
+        desc: "Build using TypeScript and React",
         button: "visit",
         link: "https://apple-website-ihza.vercel.app/"
     },
@@ -24,15 +33,7 @@ const item = [
         button: "visit",
         link: "https://promp-lah.vercel.app/"
     },
-    {
-        id: 2,
-        title: "E-com React Website",
-        img: "/people.png",
-        desc: "Fully Responsive Design. Perfect for creatives, freelancers, and professionals who want to highlight their work in a sleek.",
-        button: "Visit",
-        link: "https://hajar-ajak-frontend.vercel.app/"
 
-    },
     {
         id: 3,
         title: "Modern Portfolio",
