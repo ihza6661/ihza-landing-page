@@ -13,7 +13,7 @@ const item = [
         img: "/people.png",
         desc: "Build using JavaScript and React",
         button: "Visit",
-        link: "https://az-denim-3ycjy14me-ihza-mahendras-projects.vercel.app/"
+        link: "https://az-denim-79ld3altq-ihza-mahendras-projects.vercel.app//"
 
     },
 
