@@ -5,7 +5,7 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const item = [
   {
     id: 10,
-    title: "Cake E-commerce Website",
+    title: "Luxury Cake E-commerce Website",
     img: "/people.png",
     desc: "Build using TypeScript and React and Some third party libraries",
     button: "visit",
@@ -13,11 +13,11 @@ const item = [
   },
   {
     id: 2,
-    title: "E-com React Website",
+    title: "Luxury Fashion E-commerce Website",
     img: "/people.png",
-    desc: "Build using JavaScript and React",
+    desc: "Build using TypeScript and React and Some third party libraries",
     button: "Visit",
-    link: "https://az-denim-79ld3altq-ihza-mahendras-projects.vercel.app//",
+    link: "https://clothing-web-by-ihza.netlify.app/",
   },
   {
     id: 3,
