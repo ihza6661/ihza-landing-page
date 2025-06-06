@@ -1,4 +1,3 @@
-import React from "react";
 import "./hero.scss";
 import { motion } from "framer-motion";
 
@@ -42,8 +41,11 @@ const Hero = () => {
               <motion.button className="button-85" role="button" variants={textVariants}>
                 Gallery
               </motion.button></a>
-            <a href="#Contact">
+            {/* <a href="#Contact">
               <motion.button className="button-85" role="button" variants={textVariants}>Contact</motion.button>
+            </a> */}
+            <a href="#Portfolio">
+              <motion.button className="button-85" role="button" variants={textVariants}>Projects</motion.button>
             </a>
           </motion.div>
 
