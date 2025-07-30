@@ -4,7 +4,15 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
 const item = [
   {
-    id: 10,
+    id: 1,
+    title: "Invitation E-commerce Website",
+    img: "/people.png",
+    desc: "Build using TypeScript and React and Some third party libraries",
+    button: "visit",
+    link: "https://duainsanstory.netlify.app/",
+  },
+  {
+    id: 2,
     title: "Luxury Cake E-commerce Website",
     img: "/people.png",
     desc: "Build using TypeScript and React and Some third party libraries",
@@ -12,7 +20,7 @@ const item = [
     link: "https://cake-e-com-by-ihza.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Luxury Fashion E-commerce Website",
     img: "/people.png",
     desc: "Build using TypeScript and React and Some third party libraries",
@@ -20,7 +28,7 @@ const item = [
     link: "https://clothing-web-by-ihza.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Modern Portfolio",
     img: "/people.png",
     desc: "Fully Responsive Design. Perfect for creatives, freelancers, and professionals who want to highlight their work in a sleek.",
@@ -28,7 +36,7 @@ const item = [
     link: "https://ihza-react.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Luxury-Themed Resume",
     img: "/people.png",
     desc: "this template combines modern design elements with a touch of class.",
@@ -36,7 +44,7 @@ const item = [
     link: "https://luxury-cv.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Clean and Simple Portfolio",
     img: "/people.png",
     desc: "Elevate your online presence with a responsive and clean design portfolio website, user-friendly layout. This portfolio template is crafted with simplicity and functionality in mind, ensuring your work takes center stage while providing an intuitive browsing experience on any device.",
@@ -44,7 +52,7 @@ const item = [
     link: "https://ihza-vite-portfolio.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Modern Design Resume",
     img: "/people.png",
     desc: "Easily editable in Microsoft Word, or Google Docs, giving you complete control to tailor the template to your needs.",
@@ -52,7 +60,7 @@ const item = [
     link: "https://ihza-cv.netlify.app",
   },
   {
-    id: 7,
+    id: 8,
     title: "Halo Doc Clone",
     img: "/people.png",
     desc: "HTML CSS Only HaloDoc Clone",
@@ -60,23 +68,23 @@ const item = [
     link: "https://halo-doc-by-ihza.netlify.app/",
   },
   {
-    id: 8,
+    id: 9,
     title: "E-com Website",
     img: "/people.png",
     desc: "HTML CSS JS only",
     button: "visit",
     link: "https://e-com-by-ihza-baker.netlify.app",
   },
+  // {
+  //   id: 9,
+  //   title: "To Do App",
+  //   img: "/people.png",
+  //   desc: "A simple To-Do app built with React, demonstrating a basic understanding of React concepts.",
+  //   button: "visit",
+  //   link: "https://to-do-react-ihza.netlify.app/",
+  // },
   {
-    id: 9,
-    title: "To Do App",
-    img: "/people.png",
-    desc: "A simple To-Do app built with React, demonstrating a basic understanding of React concepts.",
-    button: "visit",
-    link: "https://to-do-react-ihza.netlify.app/",
-  },
-  {
-    id: 1,
+    id: 10,
     title: "PromptLah",
     img: "/people.png",
     desc: "Next JS App",
