@@ -5,7 +5,7 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const item = [
   {
     id: 1,
-    title: "Invitation E-commerce Website",
+    title: "Invitation Website",
     img: "/people.png",
     desc: "Build using TypeScript and React and Some third party libraries",
     button: "visit",
@@ -13,7 +13,7 @@ const item = [
   },
   {
     id: 2,
-    title: "Luxury Cake E-commerce Website",
+    title: "Luxury Cake Website",
     img: "/people.png",
     desc: "Build using TypeScript and React and Some third party libraries",
     button: "visit",
@@ -21,7 +21,7 @@ const item = [
   },
   {
     id: 3,
-    title: "Luxury Fashion E-commerce Website",
+    title: "Fashion E-commerce Website",
     img: "/people.png",
     desc: "Build using TypeScript and React and Some third party libraries",
     button: "Visit",
@@ -37,7 +37,7 @@ const item = [
   },
   {
     id: 5,
-    title: "Luxury-Themed Resume",
+    title: "Luxury Resume",
     img: "/people.png",
     desc: "this template combines modern design elements with a touch of class.",
     button: "Visit",
@@ -66,14 +66,6 @@ const item = [
     desc: "HTML CSS Only HaloDoc Clone",
     button: "visit",
     link: "https://halo-doc-by-ihza.netlify.app/",
-  },
-  {
-    id: 9,
-    title: "E-com Website",
-    img: "/people.png",
-    desc: "HTML CSS JS only",
-    button: "visit",
-    link: "https://e-com-by-ihza-baker.netlify.app",
   },
   // {
   //   id: 9,
