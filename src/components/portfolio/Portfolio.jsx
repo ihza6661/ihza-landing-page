@@ -21,7 +21,7 @@ const item = [
   },
   {
     id: 3,
-    title: "Fashion E-commerce Website",
+    title: "Fashion Website",
     img: "/people.png",
     desc: "Build using TypeScript and React and Some third party libraries",
     button: "Visit",
