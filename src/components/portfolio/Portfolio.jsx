@@ -47,7 +47,7 @@ const item = [
     id: 6,
     title: "Clean and Simple Portfolio",
     img: "/people.png",
-    desc: "Elevate your online presence with a responsive and clean design portfolio website, user-friendly layout. This portfolio template is crafted with simplicity and functionality in mind, ensuring your work takes center stage while providing an intuitive browsing experience on any device.",
+    desc: "User-friendly layout.",
     button: "visit",
     link: "https://ihza-vite-portfolio.netlify.app/",
   },
