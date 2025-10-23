@@ -17,7 +17,7 @@ const item = [
     img: "/people.png",
     desc: "Build using TypeScript and React and Some third party libraries",
     button: "visit",
-    link: "https://cake-e-com-by-ihza.netlify.app/",
+    link: "https://brownies-chi.vercel.app/",
   },
   {
     id: 3,
@@ -29,14 +29,6 @@ const item = [
   },
   {
     id: 4,
-    title: "Modern Portfolio",
-    img: "/people.png",
-    desc: "Fully Responsive Design. Perfect for creatives, freelancers, and professionals who want to highlight their work in a sleek.",
-    button: "Visit",
-    link: "https://ihza-react.netlify.app/",
-  },
-  {
-    id: 5,
     title: "Luxury Resume",
     img: "/people.png",
     desc: "this template combines modern design elements with a touch of class.",
@@ -44,7 +36,7 @@ const item = [
     link: "https://luxury-cv.netlify.app/",
   },
   {
-    id: 6,
+    id: 5,
     title: "Clean and Simple Portfolio",
     img: "/people.png",
     desc: "User-friendly layout.",
@@ -52,36 +44,20 @@ const item = [
     link: "https://ihza-vite-portfolio.netlify.app/",
   },
   {
-    id: 7,
+    id: 6,
     title: "Modern Design Resume",
     img: "/people.png",
-    desc: "Easily editable in Microsoft Word, or Google Docs, giving you complete control to tailor the template to your needs.",
+    desc: "the template to you need.",
     button: "visit",
     link: "https://ihza-cv.netlify.app",
   },
   {
-    id: 8,
+    id: 7,
     title: "Halo Doc Clone",
     img: "/people.png",
     desc: "HTML CSS Only HaloDoc Clone",
     button: "visit",
     link: "https://halo-doc-by-ihza.netlify.app/",
-  },
-  // {
-  //   id: 9,
-  //   title: "To Do App",
-  //   img: "/people.png",
-  //   desc: "A simple To-Do app built with React, demonstrating a basic understanding of React concepts.",
-  //   button: "visit",
-  //   link: "https://to-do-react-ihza.netlify.app/",
-  // },
-  {
-    id: 10,
-    title: "PromptLah",
-    img: "/people.png",
-    desc: "Next JS App",
-    button: "visit",
-    link: "https://promp-lah.vercel.app/",
   },
 ];
 
