@@ -23,7 +23,22 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            {item.button && (
+            
+            {/* Handle multiple buttons (new format) */}
+            {item.buttons && item.buttons.length > 0 && (
+              <div className="button-group">
+                {item.buttons.map((btn, index) => (
+                  <a href={btn.link} target="_blank" rel="noreferrer" key={index}>
+                    <button className="button-85" role="button">
+                      {btn.label}
+                    </button>
+                  </a>
+                ))}
+              </div>
+            )}
+            
+            {/* Handle single button (legacy format) */}
+            {item.button && !item.buttons && (
               <a href={item.link} target="_blank" rel="noreferrer">
                 <button className="button-85" role="button">
                   {item.button}
@@ -44,7 +59,13 @@ Single.propTypes = {
     img: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired,
     button: PropTypes.string,
-    link: PropTypes.string.isRequired,
+    link: PropTypes.string,
+    buttons: PropTypes.arrayOf(
+      PropTypes.shape({
+        label: PropTypes.string.isRequired,
+        link: PropTypes.string.isRequired,
+      })
+    ),
   }).isRequired,
 };
 

@@ -137,8 +137,18 @@
         }
       }
 
+      .button-group {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+
+        @include mobile {
+          justify-content: center;
+        }
+      }
+
       button {
-        margin: 0 10px 0 10px;
+        margin: 0;
       }
 
       .button-85 {
