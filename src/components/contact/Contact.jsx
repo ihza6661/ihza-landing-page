@@ -1,13 +1,9 @@
 import "./contact.scss"
 
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-
-
 const Contact = () => {
-
-    const ref = useRef()
     const formRef = useRef()
     const [error, setError] = useState(false)
     const [success, setSuccess] = useState(false)
@@ -16,25 +12,30 @@ const Contact = () => {
         e.preventDefault();
 
         emailjs
-            .sendForm('service_sx7jjjd', 'template_1l0kz2j', formRef.current, {
-                publicKey: 'BwHeOgag-MxEJzmsc',
-            })
+            .sendForm(
+                import.meta.env.VITE_EMAILJS_SERVICE_ID,
+                import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+                formRef.current,
+                {
+                    publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+                }
+            )
             .then(
                 () => {
                     setSuccess(true)
+                    setError(false)
                 },
-                (error) => {
+                () => {
                     setError(true)
+                    setSuccess(false)
                 },
             );
     };
     return (
-        <div
-            ref={ref}
-            className="contact" id="Contact">
+        <div className="contact" id="Contact">
             <div className="textContainer">
                 <h1>Contact Me</h1>
-                <div className="item"  >
+                <div className="item">
                     <h2>Email :</h2>
                     <span><a href="mailto:ihzahmahendra6661@gmail.com"><b>ihzahmahendra6661@gmail.com</b></a></span>
                 </div>
@@ -50,13 +51,14 @@ const Contact = () => {
             <div className="formContainer">
                 <form
                     ref={formRef}
-                    onSubmit={sendEmail}>
-                    <input type="text" required placeholder="Name" name="name" />
-                    <input type="email" required placeholder="Email" name="email" />
-                    <textarea rows={8} placeholder="Message" name="message" />
-                    <button>Submit</button>
-                    {error && "Error"}
-                    {success && "Success"}
+                    onSubmit={sendEmail}
+                    aria-label="Contact form">
+                    <input type="text" required placeholder="Name" name="name" aria-label="Your name" />
+                    <input type="email" required placeholder="Email" name="email" aria-label="Your email" />
+                    <textarea rows={8} placeholder="Message" name="message" aria-label="Your message" required />
+                    <button type="submit">Submit</button>
+                    {error && <p className="error-message" role="alert">Error sending message. Please try again.</p>}
+                    {success && <p className="success-message" role="alert">Message sent successfully!</p>}
                 </form>
             </div>
         </div>

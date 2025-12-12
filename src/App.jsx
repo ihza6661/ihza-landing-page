@@ -6,11 +6,7 @@ import Contact from "./components/contact/Contact";
 import Cursor from "./components/cursor/cursor";
 import Portfolio from "./components/portfolio/Portfolio";
 import Skills from "./components/Skills/Skills";
-import Footer from './components/poter/Footer';
-
-
-
-
+import Footer from './components/footer/Footer';
 
 const App = () => {
   return (

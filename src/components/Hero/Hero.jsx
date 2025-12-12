@@ -1,20 +1,6 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
-
-const textVariants = {
-  initial: {
-    x: -500,
-    opacity: 0,
-  },
-  animate: {
-    x: 0,
-    opacity: 1,
-    transition: {
-      duration: 0.5,
-      staggerChildren: 0.1,
-    },
-  },
-};
+import { textVariants } from "../../constants/animationVariants";
 
 const Hero = () => {
   return (
@@ -34,7 +20,7 @@ const Hero = () => {
             Fullstack Developer
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <a href="https://gallery-ihza.netlify.app/" target="blank">
+            <a href="https://gallery-ihza.netlify.app/" target="_blank" rel="noopener noreferrer">
               <motion.button
                 className="button-85"
                 role="button"
@@ -55,7 +41,7 @@ const Hero = () => {
           </motion.div>
         </motion.div>
         <div className="imageContainer">
-          <img className="ihza-pic" src="/ihza.png" alt="" />
+          <img className="ihza-pic" src="/ihza.webp" alt="Ihza Mahendra - Fullstack Developer" loading="lazy" />
         </div>
       </div>
     </div>

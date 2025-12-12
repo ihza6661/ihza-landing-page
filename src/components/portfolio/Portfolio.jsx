@@ -1,34 +1,8 @@
 import { useRef } from "react";
+import PropTypes from "prop-types";
 import "./portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
-
-const item = [
-  {
-    id: 1,
-    title: "Invitation Website",
-    img: "/people.png",
-    desc: "Build using TypeScript and React and Some third party libraries",
-    button: "visit",
-    link: "https://duainsanstory.eproject.tech/",
-    // link: "https://duainsanstory.netlify.app/",
-  },
-  {
-    id: 2,
-    title: "Luxury Cake Website",
-    img: "/people.png",
-    desc: "Build using TypeScript and React and Some third party libraries",
-    button: "visit",
-    link: "https://brownies-chi.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "Fashion Website",
-    img: "/people.png",
-    desc: "Build using TypeScript and React and Some third party libraries",
-    button: "Visit",
-    link: "https://clothing-web-by-ihza.netlify.app/",
-  },
-];
+import { portfolioItems } from "../../data/portfolioData";
 
 const Single = ({ item }) => {
   const ref = useRef();
@@ -44,7 +18,7 @@ const Single = ({ item }) => {
       <div className="container" id="Portfolio">
         <div className="wrapper">
           <div className="imageContainer" ref={ref}>
-            <img src={item.img} alt="" />
+            <img src={item.img} alt={item.title} loading="lazy" />
           </div>
           <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
@@ -61,6 +35,17 @@ const Single = ({ item }) => {
       </div>
     </section>
   );
+};
+
+Single.propTypes = {
+  item: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
+    desc: PropTypes.string.isRequired,
+    button: PropTypes.string,
+    link: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 const Portfolio = () => {
@@ -83,7 +68,7 @@ const Portfolio = () => {
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>
       </div>
 
-      {item.map((item) => (
+      {portfolioItems.map((item) => (
         <Single item={item} key={item.id} />
       ))}
     </div>
