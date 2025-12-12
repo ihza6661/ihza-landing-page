@@ -1,12 +1,10 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
 
-
 const textVariants = {
   initial: {
     x: -500,
     opacity: 0,
-
   },
   animate: {
     x: 0,
@@ -16,14 +14,9 @@ const textVariants = {
       staggerChildren: 0.1,
     },
   },
-
 };
 
-
-
 const Hero = () => {
-
-
   return (
     <div className="hero" id="Homepage">
       <div className="hero-wrapper">
@@ -34,27 +27,37 @@ const Hero = () => {
           animate="animate"
         >
           <motion.h3 variants={textVariants}></motion.h3>
-          <motion.h2 className="name" variants={textVariants}>Ihza Mahendra</motion.h2>
-          <motion.h1 className="job" variants={textVariants}>Frontend Developer</motion.h1>
+          <motion.h2 className="name" variants={textVariants}>
+            Ihza Mahendra
+          </motion.h2>
+          <motion.h1 className="job" variants={textVariants}>
+            Fullstack Developer
+          </motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <a href="https://gallery-ihza.netlify.app/" target="blank">
-              <motion.button className="button-85" role="button" variants={textVariants}>
+              <motion.button
+                className="button-85"
+                role="button"
+                variants={textVariants}
+              >
                 Gallery
-              </motion.button></a>
-            {/* <a href="#Contact">
-              <motion.button className="button-85" role="button" variants={textVariants}>Contact</motion.button>
-            </a> */}
+              </motion.button>
+            </a>
             <a href="#Portfolio">
-              <motion.button className="button-85" role="button" variants={textVariants}>Projects</motion.button>
+              <motion.button
+                className="button-85"
+                role="button"
+                variants={textVariants}
+              >
+                Projects
+              </motion.button>
             </a>
           </motion.div>
-
         </motion.div>
         <div className="imageContainer">
           <img className="ihza-pic" src="/ihza.png" alt="" />
         </div>
       </div>
-
     </div>
   );
 };

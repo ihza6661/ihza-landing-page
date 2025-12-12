@@ -20,8 +20,8 @@ const About = () => {
               />
               <h3>Experience</h3>
               <p>
-                3+ years <br />
-                Frontend Development
+                5+ years <br />
+                Fullstack Development
               </p>
             </div>
             <div className="details-container">
@@ -39,8 +39,8 @@ const About = () => {
           </div>
           <div className="text-container">
             <p>
-              I'm a Frontend Developer from Pontianak, Indonesia, with a passion
-              for crafting user-friendly web interfaces.
+              I'm a Fullstack Developer from Pontianak, Indonesia, with a
+              passion for crafting user-friendly web interfaces.
             </p>
           </div>
         </div>
@@ -50,4 +50,3 @@ const About = () => {
 };
 
 export default About;
-
