@@ -2,7 +2,7 @@ export const portfolioItems = [
   {
     id: 1,
     title: "Dua Insan Story",
-    img: "/people.png",
+    img: "/img/dua-insan-story.webp",
     desc: "Designed and developed a full-featured platform for digital and print wedding invitations, including an elegant user-facing site and a powerful admin dashboard built with TypeScript and React.",
     buttons: [
       {
@@ -17,14 +17,22 @@ export const portfolioItems = [
   },
   {
     id: 2,
+    title: "Database Computer - E-Commerce Platform",
+    img: "/img/toko-komputer.webp",
+    desc: "Modern, conversion-optimized e-commerce platform for a trusted laptop and Macbook store in Pontianak. Built with React 18, TypeScript, and Tailwind CSS featuring smart WhatsApp routing, real-time inventory management, comprehensive SEO optimization with Schema.org markup, and integrated analytics tracking. Reduced customer support workload by 70% with 24/7 self-service capabilities.",
+    button: "View Live Site",
+    link: "https://toko-komputer-landing-site.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Luxury Cake Website",
-    img: "/people.png",
+    img: "/img/cake.webp",
     desc: "Build using TypeScript and React and Some third party libraries",
     button: "visit",
     link: "https://brownies-chi.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Fashion Website",
     img: "/people.png",
     desc: "Build using TypeScript and React and Some third party libraries",

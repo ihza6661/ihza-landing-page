@@ -92,6 +92,19 @@ Check formatting:
 npm run format:check
 ```
 
+### Image Optimization
+
+Optimize portfolio images for web:
+```bash
+# Quick optimization
+./optimize-image.sh path/to/image.png
+
+# Custom quality (90%)
+./optimize-image.sh path/to/image.png 90
+```
+
+📘 See [IMAGE_OPTIMIZATION.md](./IMAGE_OPTIMIZATION.md) for complete guide
+
 ## Project Structure
 
 ```
