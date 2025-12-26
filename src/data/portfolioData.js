@@ -17,15 +17,15 @@ export const portfolioItems = [
   },
   {
     id: 2,
-    title: "Database Computer - E-Commerce Platform",
+    title: "Database Computer",
     img: "/img/toko-komputer.webp",
-    desc: "Modern, conversion-optimized e-commerce platform for a trusted laptop and Macbook store in Pontianak. Built with React 18, TypeScript, and Tailwind CSS featuring smart WhatsApp routing, real-time inventory management, comprehensive SEO optimization with Schema.org markup, and integrated analytics tracking. Reduced customer support workload by 70% with 24/7 self-service capabilities.",
+    desc: "Modern, conversion-optimized Landing Page platform for a trusted Computer store in Pontianak. Built with React 18, TypeScript, and Tailwind CSS featuring smart WhatsApp routing, real-time inventory management, comprehensive SEO optimization with Schema.org markup, and integrated analytics tracking. Reduced customer support workload by 70% with 24/7 self-service capabilities.",
     button: "View Live Site",
     link: "https://toko-komputer-landing-site.vercel.app/",
   },
   {
     id: 3,
-    title: "Luxury Cake Website",
+    title: "Luxury Cake Shop Website",
     img: "/img/cake.webp",
     desc: "Build using TypeScript and React and Some third party libraries",
     button: "visit",
